@@ -3,15 +3,16 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 20
     commands:
       - echo Bağımlılıklar yükleniyor...
       - npm install
+      - npm install aws-amplify @aws-amplify/ui-react  # Bu satırı güçlendirdik
   build:
     commands:
       - echo Build işlemi başladı...
       - npm run build
 artifacts:
+  base-directory: dist  # Vite projeleri genelde 'dist' klasörüne çıktı verir
   files:
-    - '*/'
-  base-directory: build
+    - '**/*'
