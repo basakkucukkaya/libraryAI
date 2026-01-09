@@ -1,4 +1,7 @@
 # Library Recommendation System
+## 🚀 Canlı Demo (Live Demo)
+Aşağıdaki linkten projenin canlı versiyonuna ulaşabilirsiniz:
+[http://library-app-frontend-basakbeyza.s3-website-us-east-1.amazonaws.com](http://library-app-frontend-basakbeyza.s3-website-us-east-1.amazonaws.com)
 
 An AI-powered library book recommendation system built with React, TypeScript, Tailwind CSS, and AWS serverless architecture. This is a 4-week intensive project for CENG413 Software Quality Standards course.
 
