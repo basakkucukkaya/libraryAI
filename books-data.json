@@ -1,0 +1,34 @@
+{
+  "Books": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "1" },
+          "title": { "S": "The Midnight Library" },
+          "author": { "S": "Matt Haig" },
+          "genre": { "S": "Fiction" },
+          "description": { "S": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived." },
+          "coverImage": { "S": "/book-covers/midnight-library.jpg" },
+          "rating": { "N": "4.5" },
+          "publishedYear": { "N": "2020" },
+          "isbn": { "S": "978-0525559474" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "2" },
+          "title": { "S": "Project Hail Mary" },
+          "author": { "S": "Andy Weir" },
+          "genre": { "S": "Science Fiction" },
+          "description": { "S": "A lone astronaut must save the earth from disaster in this incredible new science-based thriller from the author of The Martian." },
+          "coverImage": { "S": "/book-covers/project-hail-mary.jpg" },
+          "rating": { "N": "4.8" },
+          "publishedYear": { "N": "2021" },
+          "isbn": { "S": "978-0593135204" }
+        }
+      }
+    }
+  ]
+}
